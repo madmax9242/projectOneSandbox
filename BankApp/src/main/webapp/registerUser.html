@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Loxely Bank Main Page</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bankingApp.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+</head>
+<body class="forestBackground">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6 mainBody border border-dark">
+                <p>
+                    <h2 class="text-center underline">Customer Registration</h2>
+                    
+                    <form>
+                        <div class="form-group text-center">
+                          <label for="nameRegistration"><h4>Name</h4></label>
+                          <input type="text" class="form-control text-center" id="nameRegistration" placeholder="First and Last Names" required>
+                        </div>
+                        <div class="form-group text-center">
+                          <label for="emailRegistration"><h4>Email Address</h4></label>
+                          <input type="email" class="form-control text-center" id="emailRegistration" aria-describedby="emailHelp" required>
+                        </div>
+                       <div class="form-group text-center">
+                          <label for="phoneRegistration"><h4>Phone Number</h4></label>
+                          <input type="text" class="form-control text-center" id="phoneRegistration" placeholder="10 digits, no symbols Ex. 2343234567" required>
+                        </div>
+                        <div class="form-group text-center">
+                          <label for="newPassword"><h4>Password</h4></label>
+                          <input type="password" class="form-control text-center" id="newPassword" required>
+                        </div>
+                        <div class="form-group text-center">
+                            <label for="confirmPassword"><h4>Confirm Password</h4></label>
+                            <input type="password" class="form-control text-center" id="confirmPassword" required>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" id="registerButton" class="btn btn-primary text-center">Register Account</button>
+                            <br>
+                        </div>
+                       
+                     </form>
+                     
+                </p>
+            </div>
+            <div class="col-3"></div>
+        </div>
+        
+
+    </div>
+
+
+
+   
+    <script type="text/javascript" src="js/registration.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+
+
+</html>

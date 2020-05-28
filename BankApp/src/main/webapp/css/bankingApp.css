@@ -1,0 +1,71 @@
+.hidden {
+	display: none;
+}
+
+.logoHeader {
+    background-color: darkgreen;
+    color: #E1C158;
+}
+
+.mainBody {
+    background-color: darkgreen;
+    color: #E1C158;
+}
+
+.forestBackground {
+    background-image: url("images/forest1.jpg");
+}
+
+.lionel404 {
+	 background: url("images/lionelRitchie404_800w.jpg") no-repeat center center fixed;
+}
+
+.navBar {
+    background-color: "#d4af37";
+}
+
+.nav-link {
+    background-color: rgb(238, 220, 121);
+    color: black;
+    font-weight : bold;
+}
+
+.yellow-font {
+    color: #E1C158;
+}
+
+#submitButton {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.loginField {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.center {
+	align: center;
+	text-align: center;
+	margin: 0 auto;
+}
+
+table, th, td {
+	border: 1px solid #E1C158;
+}
+
+.lookupTable {
+	margin: 0 auto;
+}
+
+.lookupRecord {
+	width: 100px;
+}
+
+#employeeLogoutButton {
+	margin: 0 auto;
+}
